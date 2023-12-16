@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App Using JS</title>
+</head>
+
+<body>
+    <div class="quiz_container">
+        <div class="quiz_app">
+            <div class="header ">
+                <h1 class="app ">Quiz APP</h1>
+
+                <div class="hud">
+                       <div id="hud-item">
+                        <p class="hud-prefix">Question: </p>
+                        <h1 class="hud-main-text" id="questionCounter"> 1/10</h1>
+                       </div>
+            
+                       <div id="hud-item">
+                        <p class="hud-prefix">Score: </p>
+                        <h1 class="hud-main-text" id="score"> 0</h1>
+                       </div>
+                </div>
+                
+            </div>
+            
+            <div class="quiz">
+                <h2 id="question" class="">Question goes here</h2>
+                <div id="answerButtons" class="">
+                    <button class="btn ">Answer 1</button>
+                    <button class="btn ">Answer 2</button>
+                    <button class="btn ">Answer 3</button>
+                    <button class="btn ">Answer 4</button>
+                </div>
+            </div>
+           
+                <button id="next_btn" class="next_button "> Next </button>
+         
+            
+        </div>
+    </div>
+      <script src="quiz.js"></script>
+</body>
+
+</html>
